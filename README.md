@@ -8,7 +8,7 @@ through the [Linde–Buzo–Gray algorithm](https://en.wikipedia.org/wiki/Linde%
 
 * Codec 2
 
-Audio codec with support for Entropy coding, specifically [Golomb coding](https://en.wikipedia.org/wiki/Golomb_coding). Explores both temporal and channel redundancy, with various temporal predictors available. Lossy compression is also available through residual quantization.
+Audio codec that explores both temporal and channel redundancy, with various temporal predictors available. Further compression is achieved through Entropy coding, specifically [Golomb coding](https://en.wikipedia.org/wiki/Golomb_coding). A lossy mode is available that uses residual quantization.
 
 * Codec 3
 
