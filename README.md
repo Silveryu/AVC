@@ -1,14 +1,14 @@
 # AVC
-Three codecs were develped for Audio Video Coding Classes
+Three codecs develped for Audio Video Coding Classes
 
 * Codec 1
 
-Audio codec capable of uniform scalar quantization and vector quantization, the codebook for vector quantization is derived 
+Audio codec capable of uniform scalar quantization and vector quantization, the vector quantization codebook is derived 
 through the [Linde–Buzo–Gray algorithm](https://en.wikipedia.org/wiki/Linde%E2%80%93Buzo%E2%80%93Gray_algorithm).
 
 * Codec 2
 
-Audio codec with support for Entropy coding, specifically [Golomb coding](https://en.wikipedia.org/wiki/Golomb_coding) that explores both temporal and channel redundancy, with various temporal predictors available. Also supports lossy compression through residual quantization.
+Audio codec with support for Entropy coding, specifically [Golomb coding](https://en.wikipedia.org/wiki/Golomb_coding). Explores both temporal and channel redundancy, with various temporal predictors available. Lossy compression is also available through residual quantization.
 
 * Codec 3
 
